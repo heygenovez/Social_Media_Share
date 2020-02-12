@@ -1,71 +1,14 @@
 <!DOCTYPE html>
+<!--https://www.youtube.com/watch?v=dKVlbF6HPZg&list=WL&index=4&t=0s-->
+<!--https://codepen.io/Hakymz/pen/BaygYZp-->
+<!--https://fontawesome.com/-->
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      
-      body {
-        background: rgb(214, 214, 214);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-      }
-      .btn {
-        position: relative;
-        height: 70px;
-        width: 70px;
-        margin: 20px;
-        background: rgb(214, 214, 214);
-        border-radius: 50%;
-        box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
-          7px 7px 20px 0 rgba(0, 0, 0, 0.3);
-        transition: 0.2s;
-      }
-      
-      .btn:hover {
-        transform: scale(1.1);
-      }
-      
-      .btn::before {
-        content: "";
-        position: absolute;
-        height: 80%;
-        width: 80%;
-        background: rgb(214, 214, 214);
-        border-radius: 50%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      
-      .btn:hover::before {
-        box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
-          inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
-      }
-      
-      .btn i {
-        position: absolute;
-        color: rgb(73, 192, 192);
-        font-size: 35px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: 0.2s;
-      }
-      
-      .btn:hover i {
-        font-size: 30px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
     <title>Neumorphism social media button</title>
   </head>
   <body>
